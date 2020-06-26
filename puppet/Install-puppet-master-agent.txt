@@ -30,7 +30,8 @@ Master Setup:
 		systemctl start puppetserver
 		systemctl status puppetserver
 		systemctl enable puppetserver  # for enabling boot time start time
-
+                 
+		ufw allow 8140/tcp
 
 Agent:
 ------
